@@ -1,0 +1,152 @@
+Start.
+user_name + cmd + file(use space to seprate): client1 open f1
+user_name + cmd + file(use space to seprate): server2: This file is NOT in this server.
+server3: This file is NOT in this server.
+server1: f1 successfully opened
+client2 open f2
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: f2 successfully opened
+server3: This file is NOT in this server.
+client1 write f1 
+what to write: 
+test test test
+test test test
+user_name + cmd + file(use space to seprate): server2: This file is NOT in this server.
+server3: This file is NOT in this server.
+server1:  successful wroten.
+client1 read f1
+user_name + cmd + file(use space to seprate): server2: This file is NOT in this server.
+server3: This file is NOT in this server.
+server1: test test test
+client3 open f1
+user_name + cmd + file(use space to seprate): server2: This file is NOT in this server.
+server1: the file already opened
+server3: This file is NOT in this server.
+client1 close f1
+user_name + cmd + file(use space to seprate): server1: file closed
+server2: This file is NOT in this server.
+server3: This file is NOT in this server.
+client4 open f3
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3: f3 successfully opened
+client4 read f3
+user_name + cmd + file(use space to seprate): server2: This file is NOT in this server.
+server1: This file is NOT in this server.
+server3: null
+client4 write f3
+what to write: 
+test for the client4
+test for the client4
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3:  successful wroten.
+client4 read f3
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3: test for the client4
+client5 open f3
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3: the file already opened
+client2 close f2
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: file closed
+server3: This file is NOT in this server.
+client6 open f2
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: f2 successfully opened
+server3: This file is NOT in this server.
+client5 read f3
+user_name + cmd + file(use space to seprate): server2: This file is NOT in this server.
+server1: This file is NOT in this server.
+server3: test for the client4
+client6 write f2
+what to write: 
+test for client6
+test for client6
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server3: This file is NOT in this server.
+server2:  successful wroten.
+client6 read f2
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server3: This file is NOT in this server.
+server2: test for client6
+client6 close
+user_name + cmd + file(use space to seprate): client6 close f2
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: file closed
+server3: This file is NOT in this server.
+client7 open file2
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3: This file is NOT in this server.
+client open f2
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server3: This file is NOT in this server.
+server2: f2 successfully opened
+client close f2
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: file closed
+server3: This file is NOT in this server.
+client7 open f2
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: f2 successfully opened
+server3: This file is NOT in this server.
+client7 read f2
+user_name + cmd + file(use space to seprate): server3: This file is NOT in this server.
+server1: This file is NOT in this server.
+server2: test for client6
+client7 write f2
+what to write: 
+wang tong
+wang tong
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server3: This file is NOT in this server.
+server2:  successful wroten.
+client7 read f2
+user_name + cmd + file(use space to seprate): server3: This file is NOT in this server.
+server1: This file is NOT in this server.
+server2: wang tong
+
+user_name + cmd + file(use space to seprate): client7 open f3
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server3: f3 successfully opened
+server2: This file is NOT in this server.
+client7 write f3
+what to write: 
+ttttttttttt
+ttttttttttt
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3:  successful wroten.
+client read f3
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3: test for the client4ttttttttttt
+client7 read f3
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3: test for the client4ttttttttttt
+client7 write f3
+what to write: 
+wwwwwwwwww
+wwwwwwwwww
+user_name + cmd + file(use space to seprate): server2: This file is NOT in this server.
+server1: This file is NOT in this server.
+server3:  successful wroten.
+client7 read f3
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3: test for the client4tttttttttttwwwwwwwwww
+client7 write f3
+what to write: 
+wang
+wang
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3:  successful wroten.
+client7 close f3
+user_name + cmd + file(use space to seprate): server1: This file is NOT in this server.
+server2: This file is NOT in this server.
+server3: file closed
